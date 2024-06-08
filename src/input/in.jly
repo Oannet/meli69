@@ -1,0 +1,39 @@
+main{
+     j:int = 0
+     a:int = 6
+     b:int = 3
+     c:String = "test"
+    if (a > b){
+        j++
+        }
+    printLn(j)
+    printLn(c)
+}
+
+m1(a:int, b:int):int{
+    while(a != 0){
+                if (a < b){
+                     b = b - a                      
+        }else{
+              a = a - b
+              }
+
+
+        }
+     return b
+   }
+
+gcd(a:int, b:int):int{
+    for(i:int = 0; i < 5; i++){
+        i = i + 5
+}
+    c:int = 0
+    while (c < 5) {
+        c = a + 5
+        c++
+    }
+    return c
+   }
+                   
+                      
+
